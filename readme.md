@@ -101,3 +101,79 @@ SpEl表达式
 <br/>&nbsp;&nbsp;&nbsp;&nbsp; *
 <br/>&nbsp;&nbsp;&nbsp;&nbsp; */
 
+<br/>&nbsp;&nbsp;&nbsp;&nbsp; Caffeine是基于Java 8的高性能，接近最佳的缓存工具库。Caffeine使用Google Guava启发的API提供内存缓存。所以它的使用成本较低，跟Guava的API大致一致。
+<br/>&nbsp;&nbsp;&nbsp;&nbsp; 它主要有以下几个功能：
+<br/>&nbsp;&nbsp;&nbsp;&nbsp; 自动将条目自动加载到缓存中，可以选择同步或异步加
+<br/>&nbsp;&nbsp;&nbsp;&nbsp; 基于频率和新近度超过最大值时基于大小的逐出
+<br/>&nbsp;&nbsp;&nbsp;&nbsp; 自上次访问或上次写入以来测得的基于时间的条目到期
+<br/>&nbsp;&nbsp;&nbsp;&nbsp; 发生第一个陈旧的条目请求时，异步刷新
+<br/>&nbsp;&nbsp;&nbsp;&nbsp; 键自动包装在弱引用中
+<br/>&nbsp;&nbsp;&nbsp;&nbsp; 值自动包装在弱引用或软引用中
+<br/>&nbsp;&nbsp;&nbsp;&nbsp; 逐出（或以其他方式删除）条目的通知
+<br/>&nbsp;&nbsp;&nbsp;&nbsp; 写入通知
+<br/>&nbsp;&nbsp;&nbsp;&nbsp; 缓存访问统计信息的
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
